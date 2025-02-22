@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
 import 'p001_text_widget.dart';
-import 'p002_col_widget.dart';
+import 'p002_col_row_widget.dart';
+import 'p003_stack.dart';
+import 'p004_buttns.dart';
+import 'p005_splashscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +38,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyColumn(),
+      home: const MySplashScreen(),
     );
   }
 }
