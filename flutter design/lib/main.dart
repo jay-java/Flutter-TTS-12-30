@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 
+import 'nav_drawer/nav_drawer.dart';
 import 'p001_text_widget.dart';
 import 'p002_col_row_widget.dart';
 import 'p003_stack.dart';
 import 'p004_buttns.dart';
 import 'p005_splashscreen.dart';
+import 'p007_dialogue.dart';
+import 'p008_bottomnavigation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,7 +41,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MySplashScreen(),
+      home: const MyBottomNavigation(),
     );
   }
 }

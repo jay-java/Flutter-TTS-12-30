@@ -59,6 +59,13 @@ class _MyButtonsState extends State<MyButtons> {
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton(onPressed: () {
+        setState(() {
+
+        });
+      },
+        child: Icon(Icons.navigate_next_sharp),
+      ),
     );
   }
 }
