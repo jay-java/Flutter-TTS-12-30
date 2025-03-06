@@ -8,6 +8,7 @@ import 'p004_buttns.dart';
 import 'p005_splashscreen.dart';
 import 'p007_dialogue.dart';
 import 'p008_bottomnavigation.dart';
+import 'p009_gridview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyBottomNavigation(),
+      home: const MyGridView(),
     );
   }
 }

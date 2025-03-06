@@ -15,7 +15,10 @@ class _MyBottomNavigationState extends State<MyBottomNavigation> {
     return Scaffold(
       appBar: AppBar(
         title: Text('BottomNavigation'),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.transparent,
+      ),
+      body: Container(
+        color: Colors.grey,
       ),
       bottomNavigationBar:
           BottomNavigationBar(
