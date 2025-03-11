@@ -22,7 +22,6 @@ class _MySplashScreenState extends State<MySplashScreen> {
             context, MaterialPageRoute(builder: (context) => MyListView())));
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
